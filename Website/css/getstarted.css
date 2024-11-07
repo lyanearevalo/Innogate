@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    z-index: 1000;
+    background: #F4F4F4;
+}
+
+.logo img{
+    max-width: 150px;
+    height: auto;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.options{
+    display: flex;
+}
+
+.options a{
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+
+.options a:hover{
+    border-bottom: 4px solid #5290C9;
+    transition: 0.3s;
+    color: #5290C9;
+}
+
+.option-icon{
+    display: flex;
+    align-items: center;
+}
+
+.option-icon i{
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.option-icon i:hover{
+    transform: scale(1.1);
+    color: #5290C9;
+    transition: 0.3s;
+}
+
+.socials{
+  position: fixed;
+  right: 20px;
+  top: 30%;
+  background: white;
+}
+
+.socials ul li{
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+.socials ul li a{
+  color: black;
+  padding: 10px;
+  display: block;
+  font-size: 29px;
+}
+
+.socials ul li a:hover{
+  color: white;
+  background: #274472;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.about-services{
+    margin-top: 170px;
+    text-align: center;
+    padding: 0 300px;
+}
+
+.about-services ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.about-services ul li{
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.about-services ul li img{
+    width: 200px;
+    height: auto;
+    filter: grayscale(40%);
+}
+.about-services ul li img:hover{
+transform: scale(1.1);
+    transition: 0.3s;
+    border: 3px solid #274472;
+    margin-bottom: 20px;
+}
+
+.about-services ul li h1{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #274472;
+}
+
+.about-services ul li p{
+    font-size: 15px;
+    margin-top: 20px;
+}

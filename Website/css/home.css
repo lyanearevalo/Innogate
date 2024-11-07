@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    z-index: 1000;
+    background: #F4F4F4;
+}
+
+.logo img{
+    max-width: 150px;
+    height: auto;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+.options{
+    display: flex;
+}
+
+.options a{
+    color: #2c2c2c;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+
+.options a:hover{
+    border-bottom: 3px solid #5290C9;
+    transition: 0.1s;
+    color: #5290C9;
+}
+
+.option-icon{
+    display: flex;
+    align-items: center;
+}
+
+.option-icon i{
+    margin-right: 20px;
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.option-icon i:hover{
+    transform: scale(1.1);
+    color: #274472;
+}
+
+section{
+    padding: 5% 10%;
+}
+
+.interface{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/10.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.tagline h5{
+    color: #274472;
+    font-size: 19px;
+}
+
+.tagline h1{
+    font-size: 65px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.tagline p{
+    color: #333c56;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.login{
+    display: inline-block;
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+
+.login:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.login i{
+    vertical-align: middle;
+}
+
+.socials{
+  position: fixed;
+  right: 20px;
+  top: 30%;
+  background: white;
+}
+
+.socials ul li{
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+.socials ul li a{
+  color: black;
+  padding: 10px;
+  display: block;
+  font-size: 29px;
+}
+
+.socials ul li a:hover{
+  color: white;
+  background: #274472;
+  transition: 0.1s;
+  border-radius: 10px;
+}
